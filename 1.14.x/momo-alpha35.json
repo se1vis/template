@@ -56,6 +56,7 @@
         "rule_set": [
           "Ads",
           "geosite-category-ads-all",
+          "geosite_adguard",
           "httpDNS",
           "DNSreject"
         ],
@@ -254,7 +255,7 @@
     },
     {
       "type": "selector",
-      "tag": "谷歌",
+      "tag": "AIGC",
       "outbounds": [
         "📦 sing-box",
         "🟢 自动-测速",
@@ -341,7 +342,7 @@
         "DIRECT",
         "REJECT-DROP",
         "YouTube",
-        "谷歌",
+        "AIGC",
         "🍎 苹果",
         "📺 流媒体",
         "🪟 微软",
@@ -487,7 +488,7 @@
           "firebaselogging.googleapis.com",
           "firebaselogging-pa.googleapis.com"
         ],
-        "outbound": "谷歌"
+        "outbound": "AIGC"
       },
       {
         "type": "logical",
@@ -513,16 +514,17 @@
             ]
           }
         ],
-        "outbound": "谷歌"
+        "outbound": "AIGC"
       },
       {
         "rule_set": [
           "geosite-google",
           "Google",
+          "ai",
           "fcm",
           "Android"
         ],
-        "outbound": "谷歌"
+        "outbound": "AIGC"
       },
       {
         "rule_set": [
@@ -565,7 +567,6 @@
         "rule_set": [
           "Proxy",
           "gfw",
-          "ai",
           "games",
           "GlobalMedia",
           "proxy"
@@ -686,6 +687,8 @@
       {
         "rule_set": [
           "Ads",
+          "geosite-category-ads-all",
+          "geosite_adguard",
           "httpDNS",
           "DNSreject"
         ],
