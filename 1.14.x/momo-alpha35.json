@@ -180,9 +180,7 @@
     {
       "type": "urltest",
       "tag": "🟢 自动-测速",
-      "outbounds": [
-        "节点名称"
-      ],
+      "outbounds": [],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m0s",
       "tolerance": 100,
@@ -191,10 +189,7 @@
     {
       "type": "selector",
       "tag": "JP",
-      "outbounds": [
-        "JP-auto"
-      ],
-      "default": "JP-auto"
+      "outbounds": []
     },
     {
       "type": "urltest",
@@ -208,10 +203,7 @@
     {
       "type": "selector",
       "tag": "US",
-      "outbounds": [
-        "US-auto"
-      ],
-      "default": "US-auto"
+      "outbounds": []
     },
     {
       "type": "urltest",
@@ -225,10 +217,7 @@
     {
       "type": "selector",
       "tag": "self",
-      "outbounds": [
-        "self-auto"
-      ],
-      "default": "self-auto"
+      "outbounds": []
     },
     {
       "type": "urltest",
@@ -243,28 +232,20 @@
       "type": "selector",
       "tag": "YouTube",
       "outbounds": [
-        "📦 sing-box",
         "🟢 自动-测速",
-        "self-auto",
-        "JP-auto",
-        "US-auto",
-        "DIRECT"
+        "self-auto"
       ],
-      "default": "📦 sing-box",
+      "default": "self-auto",
       "interrupt_exist_connections": true
     },
     {
       "type": "selector",
       "tag": "AIGC",
       "outbounds": [
-        "📦 sing-box",
-        "🟢 自动-测速",
         "self-auto",
-        "JP-auto",
-        "US-auto",
-        "DIRECT"
+        "US-auto"
       ],
-      "default": "📦 sing-box",
+      "default": "US-auto",
       "interrupt_exist_connections": true
     },
     {
@@ -281,9 +262,10 @@
       "type": "selector",
       "tag": "📺 流媒体",
       "outbounds": [
-        "DIRECT",
-        "📦 sing-box"
+        "US-auto",
+        "self-auto"
       ],
+      "default": "US-auto",
       "interrupt_exist_connections": true
     },
     {
@@ -300,9 +282,10 @@
       "type": "selector",
       "tag": "📠 电报",
       "outbounds": [
+        "US-auto",
         "📦 sing-box"
       ],
-      "default": "📦 sing-box",
+      "default": "US-auto",
       "interrupt_exist_connections": true
     },
     {
