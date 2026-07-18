@@ -1,6 +1,6 @@
 {
   "log": {
-    "level": "fatal",
+    "level": "info",
     "timestamp": true
   },
   "dns": {
@@ -127,6 +127,12 @@
       "tag": "dns-in",
       "listen": "::",
       "listen_port": 1053
+    },
+    {
+      "tag": "redirect-in",
+      "type": "redirect",
+      "listen": "::",
+      "listen_port": 7890
     },
     {
       "type": "tun",
@@ -954,7 +960,7 @@
   "experimental": {
     "cache_file": {
       "enabled": true,
-      "path": "cache.db",
+      "path": "/etc/momo/run/cache.db",
       "store_fakeip": true,
       "store_dns": true
     }
