@@ -131,24 +131,13 @@
     {
       "type": "tun",
       "tag": "tun-in",
-      "mtu": 1500,
+      "interface_name": "momo",
       "address": [
         "10.8.0.1/24",
         "fdfe:dcba:9876::1/126"
       ],
-      "dns_mode": "hijack",
-      "dns_address": [
-        "10.8.0.2",
-        "fdfe:dcba:9876::2"
-      ],
-      "auto_route": true,
-      "strict_route": true,
-      "route_address_set": [
-        "cnip",
-        "private"
-      ],
-      "stack": "mixed",
-      "endpoint_independent_nat": true
+      "auto_route": false,
+      "auto_redirect": false
     }
   ],
   "endpoints": [
