@@ -29,7 +29,8 @@
       {
         "type": "fakeip",
         "tag": "fakeip",
-        "inet4_range": "198.18.0.0/15"
+        "inet4_range": "198.18.0.0/15",
+        "inet6_range": "fd00:db8:1::/64"
       },
       {
         "type": "https",
@@ -176,8 +177,8 @@
         "🟢 自动-测速",
         "节点名称",
         "self-auto",
-        "JP-auto",
-        "US-auto",
+        "🇯🇵 JP-auto",
+        "🇺🇸 US-auto",
         "DIRECT"
       ],
       "default": "🟢 自动-测速"
@@ -195,15 +196,15 @@
     },
     {
       "type": "selector",
-      "tag": "JP",
+      "tag": "🇯🇵 JP",
       "outbounds": [
-        "JP-auto"
+        "🇯🇵 JP-auto"
       ],
-      "default": "JP-auto"
+      "default": "🇯🇵 JP-auto"
     },
     {
       "type": "urltest",
-      "tag": "JP-auto",
+      "tag": "🇯🇵 JP-auto",
       "outbounds": [],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m0s",
@@ -212,15 +213,15 @@
     },
     {
       "type": "selector",
-      "tag": "US",
+      "tag": "🇺🇸 US",
       "outbounds": [
-        "US-auto"
+        "🇺🇸 US-auto"
       ],
-      "default": "US-auto"
+      "default": "🇺🇸 US-auto"
     },
     {
       "type": "urltest",
-      "tag": "US-auto",
+      "tag": "🇺🇸 US-auto",
       "outbounds": [],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m0s",
@@ -251,8 +252,8 @@
         "📦 sing-box",
         "🟢 自动-测速",
         "self-auto",
-        "JP-auto",
-        "US-auto",
+        "🇯🇵 JP-auto",
+        "🇺🇸 US-auto",
         "DIRECT"
       ],
       "default": "📦 sing-box",
@@ -265,8 +266,8 @@
         "📦 sing-box",
         "🟢 自动-测速",
         "self-auto",
-        "JP-auto",
-        "US-auto",
+        "🇯🇵 JP-auto",
+        "🇺🇸 US-auto",
         "DIRECT"
       ],
       "default": "📦 sing-box",
