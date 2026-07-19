@@ -19,10 +19,10 @@ config.outbounds.map(i => {
   if (['节点名称', '🟢 自动-测速'].includes(i.tag)) {
     i.outbounds.push(...getTags(proxies))
   }
-  if (['JP', 'JP-auto'].includes(i.tag)) {
+  if (['JP', 'JP-auto', '🇯🇵 JP', '🇯🇵 JP-auto'].includes(i.tag)) {
     i.outbounds.push(...getTags(proxies, /日本|jp|japan|🇯🇵/i))
   }
-  if (['US', 'US-auto'].includes(i.tag)) {
+  if (['US', 'US-auto', '🇺🇸 US', '🇺🇸 US-auto'].includes(i.tag)) {
     i.outbounds.push(...getTags(proxies, /美|us|unitedstates|united states|🇺🇸/i))
   }
   if (['self', 'self-auto'].includes(i.tag)) {
