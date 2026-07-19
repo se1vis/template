@@ -158,7 +158,7 @@
       "type": "tailscale",
       "tag": "ts-ep",
       "state_directory": "tailscale",
-      "hostname": "iphone",
+      "hostname": "MacOS",
       "auth_key": "my-secret-auth",
       "accept_routes": true,
       "udp_timeout": "5m"
