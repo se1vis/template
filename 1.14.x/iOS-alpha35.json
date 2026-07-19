@@ -185,9 +185,7 @@
     {
       "type": "urltest",
       "tag": "🟢 自动-测速",
-      "outbounds": [
-        "节点名称"
-      ],
+      "outbounds": [],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m0s",
       "tolerance": 100,
@@ -225,27 +223,22 @@
       "tag": "YouTube",
       "outbounds": [
         "📦 sing-box",
-        "🟢 自动-测速",
         "self-auto",
         "🇯🇵 JP-auto",
-        "🇺🇸 US-auto",
         "DIRECT"
       ],
-      "default": "📦 sing-box",
+      "default": "self-auto",
       "interrupt_exist_connections": true
     },
     {
       "type": "selector",
       "tag": "谷歌",
       "outbounds": [
-        "📦 sing-box",
-        "🟢 自动-测速",
         "self-auto",
-        "🇯🇵 JP-auto",
         "🇺🇸 US-auto",
         "DIRECT"
       ],
-      "default": "📦 sing-box",
+      "default": "🇺🇸 US-auto",
       "interrupt_exist_connections": true
     },
     {
@@ -262,9 +255,10 @@
       "type": "selector",
       "tag": "📺 流媒体",
       "outbounds": [
-        "DIRECT",
+        "🇺🇸 US-auto",
         "📦 sing-box"
       ],
+      "default": "🇺🇸 US-auto",
       "interrupt_exist_connections": true
     },
     {
@@ -281,9 +275,11 @@
       "type": "selector",
       "tag": "📠 电报",
       "outbounds": [
+        "🇺🇸 US-auto",
+        "self-auto",
         "📦 sing-box"
       ],
-      "default": "📦 sing-box",
+      "default": "🇺🇸 US-auto",
       "interrupt_exist_connections": true
     },
     {
@@ -501,6 +497,7 @@
         "rule_set": [
           "geosite-google",
           "Google",
+          "ai",
           "fcm",
           "Android"
         ],
@@ -547,7 +544,6 @@
         "rule_set": [
           "Proxy",
           "gfw",
-          "ai",
           "games",
           "GlobalMedia",
           "proxy"
