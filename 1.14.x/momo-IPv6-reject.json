@@ -42,6 +42,10 @@
     ],
     "rules": [
       {
+        "ip_version": 6,
+        "action": "reject"
+      },
+      {
         "query_type": [
           "SVCB",
           "HTTPS",
@@ -341,6 +345,20 @@
           }
         ],
         "action": "hijack-dns"
+      },
+      {
+        "type": "logical",
+        "mode": "and",
+        "rules": [
+          {
+            "ip_version": 6
+          },
+          {
+            "default_interface_address": "2000::/3",
+            "invert": true
+          }
+        ],
+        "action": "reject"
       },
       {
         "port": [
