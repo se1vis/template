@@ -194,14 +194,6 @@
       "idle_timeout": "30m0s"
     },
     {
-      "type": "selector",
-      "tag": "🇯🇵 JP",
-      "outbounds": [
-        "🇯🇵 JP-auto"
-      ],
-      "default": "🇯🇵 JP-auto"
-    },
-    {
       "type": "urltest",
       "tag": "🇯🇵 JP-auto",
       "outbounds": [],
@@ -211,14 +203,6 @@
       "idle_timeout": "30m0s"
     },
     {
-      "type": "selector",
-      "tag": "🇺🇸 US",
-      "outbounds": [
-        "🇺🇸 US-auto"
-      ],
-      "default": "🇺🇸 US-auto"
-    },
-    {
       "type": "urltest",
       "tag": "🇺🇸 US-auto",
       "outbounds": [],
@@ -226,14 +210,6 @@
       "interval": "10m0s",
       "tolerance": 100,
       "idle_timeout": "30m0s"
-    },
-    {
-      "type": "selector",
-      "tag": "self",
-      "outbounds": [
-        "self-auto"
-      ],
-      "default": "self-auto"
     },
     {
       "type": "urltest",
