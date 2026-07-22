@@ -29,8 +29,7 @@
       {
         "type": "fakeip",
         "tag": "fakeip",
-        "inet4_range": "198.18.0.0/15",
-        "inet6_range": "fd00:db8:1::/64"
+        "inet4_range": "198.18.0.0/15"
       },
       {
         "type": "https",
@@ -84,6 +83,10 @@
       {
         "rule_set": "Filter",
         "server": "alidns-quic"
+      },
+      {
+        "query_type": "AAAA",
+        "action": "reject"
       },
       {
         "query_type": [
