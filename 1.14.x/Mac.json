@@ -29,8 +29,7 @@
       {
         "type": "fakeip",
         "tag": "fakeip",
-        "inet4_range": "198.18.0.0/15",
-        "inet6_range": "fd00:db8:1::/64"
+        "inet4_range": "198.18.0.0/15"
       },
       {
         "type": "https",
@@ -46,10 +45,6 @@
       }
     ],
     "rules": [
-      {
-        "ip_version": 6,
-        "action": "reject"
-      },
       {
         "query_type": [
           "SVCB",
@@ -158,7 +153,7 @@
       "type": "tailscale",
       "tag": "ts-ep",
       "state_directory": "tailscale",
-      "hostname": "MacOS",
+      "hostname": "desktop",
       "auth_key": "my-secret-auth",
       "accept_routes": true,
       "udp_timeout": "5m"
@@ -224,19 +219,17 @@
       "outbounds": [
         "📦 sing-box",
         "self-auto",
-        "🇯🇵 JP-auto",
-        "DIRECT"
+        "🇯🇵 JP-auto"
       ],
       "default": "self-auto",
       "interrupt_exist_connections": true
     },
     {
       "type": "selector",
-      "tag": "谷歌",
+      "tag": "AIGC",
       "outbounds": [
         "self-auto",
-        "🇺🇸 US-auto",
-        "DIRECT"
+        "🇺🇸 US-auto"
       ],
       "default": "🇺🇸 US-auto",
       "interrupt_exist_connections": true
@@ -319,7 +312,7 @@
         "DIRECT",
         "REJECT-DROP",
         "YouTube",
-        "谷歌",
+        "AIGC",
         "🍎 苹果",
         "📺 流媒体",
         "🪟 微软",
@@ -465,7 +458,7 @@
           "firebaselogging.googleapis.com",
           "firebaselogging-pa.googleapis.com"
         ],
-        "outbound": "谷歌"
+        "outbound": "AIGC"
       },
       {
         "type": "logical",
@@ -491,7 +484,7 @@
             ]
           }
         ],
-        "outbound": "谷歌"
+        "outbound": "AIGC"
       },
       {
         "rule_set": [
@@ -501,7 +494,7 @@
           "fcm",
           "Android"
         ],
-        "outbound": "谷歌"
+        "outbound": "AIGC"
       },
       {
         "rule_set": [
