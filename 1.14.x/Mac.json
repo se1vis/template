@@ -169,21 +169,21 @@
       "type": "selector",
       "tag": "📦 sing-box",
       "outbounds": [
-        "🟢 自动-测速",
-        "self-auto",
+        "🚀 自动-测速",
+        "🛠️ self-auto",
         "🇯🇵 JP-auto",
         "🇺🇸 US-auto",
         "DIRECT"
       ],
-      "default": "🟢 自动-测速"
+      "default": "🚀 自动-测速"
     },
     {
       "type": "urltest",
-      "tag": "🟢 自动-测速",
+      "tag": "🚀 自动-测速",
       "outbounds": [],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m0s",
-      "tolerance": 100,
+      "tolerance": 50,
       "idle_timeout": "30m0s"
     },
     {
@@ -192,7 +192,7 @@
       "outbounds": [],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m0s",
-      "tolerance": 100,
+      "tolerance": 50,
       "idle_timeout": "30m0s"
     },
     {
@@ -201,34 +201,34 @@
       "outbounds": [],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m0s",
-      "tolerance": 100,
+      "tolerance": 50,
       "idle_timeout": "30m0s"
     },
     {
       "type": "urltest",
-      "tag": "self-auto",
+      "tag": "🛠️ self-auto",
       "outbounds": [],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m0s",
-      "tolerance": 100,
+      "tolerance": 50,
       "idle_timeout": "30m0s"
     },
     {
       "type": "selector",
-      "tag": "YouTube",
+      "tag": "▶️ YouTube",
       "outbounds": [
         "📦 sing-box",
-        "self-auto",
+        "🛠️ self-auto",
         "🇯🇵 JP-auto"
       ],
-      "default": "self-auto",
+      "default": "🛠️ self-auto",
       "interrupt_exist_connections": true
     },
     {
       "type": "selector",
-      "tag": "AIGC",
+      "tag": "🧠 AIGC",
       "outbounds": [
-        "self-auto",
+        "🛠️ self-auto",
         "🇺🇸 US-auto"
       ],
       "default": "🇺🇸 US-auto",
@@ -269,7 +269,7 @@
       "tag": "📠 电报",
       "outbounds": [
         "🇺🇸 US-auto",
-        "self-auto",
+        "🛠️ self-auto",
         "📦 sing-box"
       ],
       "default": "🇺🇸 US-auto",
@@ -311,8 +311,8 @@
         "📦 sing-box",
         "DIRECT",
         "REJECT-DROP",
-        "YouTube",
-        "AIGC",
+        "▶️ YouTube",
+        "🧠 AIGC",
         "🍎 苹果",
         "📺 流媒体",
         "🪟 微软",
@@ -418,7 +418,7 @@
       },
       {
         "rule_set": "geosite-youtube",
-        "outbound": "YouTube"
+        "outbound": "▶️ YouTube"
       },
       {
         "domain_suffix": [
@@ -430,11 +430,11 @@
           "ytimg.com",
           "googlevideo.com"
         ],
-        "outbound": "YouTube"
+        "outbound": "▶️ YouTube"
       },
       {
         "package_name_regex": "^(com\\.google\\.android\\.youtube|app\\.revanced\\.android\\.youtube)$",
-        "outbound": "YouTube"
+        "outbound": "▶️ YouTube"
       },
       {
         "domain_suffix": [
@@ -458,7 +458,7 @@
           "firebaselogging.googleapis.com",
           "firebaselogging-pa.googleapis.com"
         ],
-        "outbound": "AIGC"
+        "outbound": "🧠 AIGC"
       },
       {
         "type": "logical",
@@ -484,7 +484,7 @@
             ]
           }
         ],
-        "outbound": "AIGC"
+        "outbound": "🧠 AIGC"
       },
       {
         "rule_set": [
@@ -494,7 +494,7 @@
           "fcm",
           "Android"
         ],
-        "outbound": "AIGC"
+        "outbound": "🧠 AIGC"
       },
       {
         "rule_set": [
