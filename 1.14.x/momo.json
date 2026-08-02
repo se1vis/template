@@ -218,6 +218,7 @@
       "tag": "▶️ YouTube",
       "outbounds": [
         "🚀 自动-测速",
+        "🇯🇵 JP-auto",
         "🛠️ self-auto"
       ],
       "default": "🛠️ self-auto",
