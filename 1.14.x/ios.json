@@ -177,9 +177,10 @@
         "🛠️ self-auto",
         "🇯🇵 JP-auto",
         "🇺🇸 US-auto",
+        "🇸🇬 SG-auto",
         "DIRECT"
       ],
-      "default": "🚀 自动-测速"
+      "default": "🇸🇬 SG-auto"
     },
     {
       "type": "urltest",
@@ -210,6 +211,15 @@
     },
     {
       "type": "urltest",
+      "tag": "🇸🇬 SG-auto",
+      "outbounds": [],
+      "url": "http://www.gstatic.com/generate_204",
+      "interval": "10m0s",
+      "tolerance": 50,
+      "idle_timeout": "30m0s"
+    },
+    {
+      "type": "urltest",
       "tag": "🛠️ self-auto",
       "outbounds": [],
       "url": "http://www.gstatic.com/generate_204",
@@ -223,9 +233,10 @@
       "outbounds": [
         "📦 sing-box",
         "🛠️ self-auto",
+        "🇸🇬 SG-auto",
         "🇯🇵 JP-auto"
       ],
-      "default": "🛠️ self-auto",
+      "default": "🇸🇬 SG-auto",
       "interrupt_exist_connections": true
     },
     {
@@ -273,10 +284,11 @@
       "tag": "📠 电报",
       "outbounds": [
         "🇺🇸 US-auto",
+        "🇸🇬 SG-auto",
         "🛠️ self-auto",
         "📦 sing-box"
       ],
-      "default": "🇺🇸 US-auto",
+      "default": "🇸🇬 SG-auto",
       "interrupt_exist_connections": true
     },
     {

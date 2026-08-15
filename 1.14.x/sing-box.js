@@ -28,6 +28,9 @@ config.outbounds.map(i => {
   if (['self', 'self-auto', '🛠️ self-auto'].includes(i.tag)) {
     i.outbounds.push(...getTags(proxies, /^(?!.*免费).+/i))
   }
+  if (['SG', 'SG-auto', '🇸🇬 SG', '🇸🇬 SG-auto'].includes(i.tag)) {
+    i.outbounds.push(...getTags(proxies, /新加坡|狮城|sg|singapore|🇸🇬/i))
+  }
 })
 
 const selfAutoOutbound = config.outbounds.find(i => i.tag === '🛠️ self-auto')
