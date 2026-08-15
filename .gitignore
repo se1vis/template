@@ -1,1 +1,89 @@
+# ===== OS 系统文件 =====
 .DS_Store
+Thumbs.db
+Desktop.ini
+._*
+
+# ===== 环境变量 & 密钥 =====
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+*.jks
+*.keystore
+*.secret
+*.secrets
+*credentials*
+*_secret*
+*.token
+
+# ===== SSH & GPG =====
+id_rsa
+id_ed25519
+*.pub
+*.gpg
+
+# ===== 代理 & 节点订阅信息 =====
+# 订阅链接 & 节点文件
+*.subscription
+*subscribe*
+*clash-sub*
+*node*list*
+*proxy*list*
+
+# 常见代理配置格式（导出/生成的完整配置）
+*.yaml.bak
+*.yml.bak
+*.full.json
+*.local.json
+*.generated.json
+
+# 生成的完整配置目录
+output/
+generated/
+dist/
+
+# 常见代理协议相关
+*vmess://*
+*vless://*
+*trojan://*
+*ss://*
+*ssr://*
+*.base64
+
+# ===== IDE & 编辑器 =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# ===== 日志 & 临时文件 =====
+*.log
+*.tmp
+*.temp
+*.bak
+*.backup
+*.cache
+
+# ===== Node.js =====
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
