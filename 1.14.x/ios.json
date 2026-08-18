@@ -180,7 +180,7 @@
         "🇸🇬 SG-auto",
         "DIRECT"
       ],
-      "default": "🇸🇬 SG-auto"
+      "default": "🚀 自动-测速"
     },
     {
       "type": "urltest",
@@ -236,7 +236,7 @@
         "🇸🇬 SG-auto",
         "🇯🇵 JP-auto"
       ],
-      "default": "🇸🇬 SG-auto",
+      "default": "🇯🇵 JP-auto",
       "interrupt_exist_connections": true
     },
     {
@@ -288,7 +288,7 @@
         "🛠️ self-auto",
         "📦 sing-box"
       ],
-      "default": "🇸🇬 SG-auto",
+      "default": "🇺🇸 US-auto",
       "interrupt_exist_connections": true
     },
     {
