@@ -935,7 +935,7 @@
     {
       "type": "api",
       "tag": "api",
-      "listen": "192.168.1.1",
+      "listen": "192.168.100.1",
       "listen_port": 9091,
       "access_control_allow_private_network": true,
       "dashboard": true
