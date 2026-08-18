@@ -176,7 +176,7 @@
         "🇸🇬 SG-auto",
         "DIRECT"
       ],
-      "default": "🇸🇬 SG-auto"
+      "default": "🚀 自动-测速"
     },
     {
       "type": "urltest",
@@ -232,7 +232,7 @@
         "🇸🇬 SG-auto",
         "🛠️ self-auto"
       ],
-      "default": "🇸🇬 SG-auto",
+      "default": "🚀 自动-测速",
       "interrupt_exist_connections": true
     },
     {
@@ -283,7 +283,7 @@
         "🇸🇬 SG-auto",
         "📦 sing-box"
       ],
-      "default": "🇸🇬 SG-auto",
+      "default": "🇺🇸 US-auto",
       "interrupt_exist_connections": true
     },
     {
