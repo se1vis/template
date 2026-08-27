@@ -726,56 +726,48 @@
         "type": "remote",
         "tag": "geosite-category-ads-all",
         "url": "https://cdn.jsdelivr.net/gh/SagerNet/sing-geosite@rule-set/geosite-category-ads-all.srs",
-        "http_client": "default",
         "update_interval": "48h0m0s"
       },
       {
         "type": "remote",
         "tag": "geosite_adguard",
         "url": "https://cdn.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/adblocksingbox.srs",
-        "http_client": "default",
         "update_interval": "48h0m0s"
       },
       {
         "type": "remote",
         "tag": "geosite-google",
         "url": "https://cdn.jsdelivr.net/gh/SagerNet/sing-geosite@rule-set/geosite-google.srs",
-        "http_client": "default",
         "update_interval": "48h0m0s"
       },
       {
         "type": "remote",
         "tag": "geosite-youtube",
         "url": "https://cdn.jsdelivr.net/gh/SagerNet/sing-geosite@rule-set/geosite-youtube.srs",
-        "http_client": "default",
         "update_interval": "48h0m0s"
       },
       {
         "type": "remote",
         "tag": "proxy",
         "url": "https://cdn.jsdelivr.net/gh/DustinWin/ruleset_geodata@sing-box-ruleset/proxy.srs",
-        "http_client": "default",
         "update_interval": "48h0m0s"
       },
       {
         "type": "remote",
         "tag": "games",
         "url": "https://cdn.jsdelivr.net/gh/DustinWin/ruleset_geodata@sing-box-ruleset/games.srs",
-        "http_client": "default",
         "update_interval": "48h0m0s"
       },
       {
         "type": "remote",
         "tag": "ai",
         "url": "https://cdn.jsdelivr.net/gh/DustinWin/ruleset_geodata@sing-box-ruleset/ai.srs",
-        "http_client": "default",
         "update_interval": "48h0m0s"
       },
       {
         "type": "remote",
         "tag": "private",
         "url": "https://cdn.jsdelivr.net/gh/DustinWin/ruleset_geodata@sing-box-ruleset/private.srs",
-        "http_client": "default",
         "update_interval": "48h0m0s"
       },
       {
@@ -783,152 +775,132 @@
         "tag": "anti_fraud",
         "format": "source",
         "url": "https://cdn.jsdelivr.net/gh/hwsaya/nothing@main/rules/FuckFZ.json",
-        "http_client": "default",
         "update_interval": "48h0m0s"
       },
       {
         "type": "remote",
         "tag": "cn",
         "url": "https://cdn.jsdelivr.net/gh/DustinWin/ruleset_geodata@sing-box-ruleset/cn.srs",
-        "http_client": "default",
         "update_interval": "48h0m0s"
       },
       {
         "type": "remote",
         "tag": "microsoft-cn",
         "url": "https://cdn.jsdelivr.net/gh/DustinWin/ruleset_geodata@sing-box-ruleset/microsoft-cn.srs",
-        "http_client": "default",
         "update_interval": "48h0m0s"
       },
       {
         "type": "remote",
         "tag": "apple-cn",
         "url": "https://cdn.jsdelivr.net/gh/DustinWin/ruleset_geodata@sing-box-ruleset/apple-cn.srs",
-        "http_client": "default",
         "update_interval": "48h0m0s"
       },
       {
         "type": "remote",
         "tag": "games-cn",
         "url": "https://cdn.jsdelivr.net/gh/DustinWin/ruleset_geodata@sing-box-ruleset/games-cn.srs",
-        "http_client": "default",
         "update_interval": "48h0m0s"
       },
       {
         "type": "remote",
         "tag": "networktest",
         "url": "https://cdn.jsdelivr.net/gh/DustinWin/ruleset_geodata@sing-box-ruleset/networktest.srs",
-        "http_client": "default",
         "update_interval": "48h0m0s"
       },
       {
         "type": "remote",
         "tag": "telegram_ip",
         "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/telegram.srs",
-        "http_client": "default",
         "update_interval": "48h0m0s"
       },
       {
         "type": "remote",
         "tag": "Proxy",
         "url": "https://cdn.jsdelivr.net/gh/SagerNet/sing-geosite@rule-set/geosite-geolocation-!cn.srs",
-        "http_client": "default",
         "update_interval": "48h0m0s"
       },
       {
         "type": "remote",
         "tag": "gfw",
         "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/gfw.srs",
-        "http_client": "default",
         "update_interval": "48h0m0s"
       },
       {
         "type": "remote",
         "tag": "cnip",
         "url": "https://cdn.jsdelivr.net/gh/DustinWin/ruleset_geodata@sing-box-ruleset/cnip.srs",
-        "http_client": "default",
         "update_interval": "48h0m0s"
       },
       {
         "type": "remote",
         "tag": "Filter",
         "url": "https://cdn.jsdelivr.net/gh/DustinWin/ruleset_geodata@sing-box-ruleset/fakeip-filter.srs",
-        "http_client": "default",
         "update_interval": "48h0m0s"
       },
       {
         "type": "remote",
         "tag": "DNSreject",
         "url": "https://cdn.jsdelivr.net/gh/senshinya/singbox_ruleset@main/rule/AdGuardSDNSFilter/AdGuardSDNSFilter.srs",
-        "http_client": "default",
         "update_interval": "48h0m0s"
       },
       {
         "type": "remote",
         "tag": "httpDNS",
         "url": "https://cdn.jsdelivr.net/gh/senshinya/singbox_ruleset@main/rule/BlockHttpDNS/BlockHttpDNS.srs",
-        "http_client": "default",
         "update_interval": "48h0m0s"
       },
       {
         "type": "remote",
         "tag": "Ads",
         "url": "https://cdn.jsdelivr.net/gh/DustinWin/ruleset_geodata@sing-box-ruleset/ads.srs",
-        "http_client": "default",
         "update_interval": "48h0m0s"
       },
       {
         "type": "remote",
         "tag": "fcm",
         "url": "https://cdn.jsdelivr.net/gh/senshinya/singbox_ruleset@main/rule/GoogleFCM/GoogleFCM.srs",
-        "http_client": "default",
         "update_interval": "48h0m0s"
       },
       {
         "type": "remote",
         "tag": "Android",
         "url": "https://cdn.jsdelivr.net/gh/senshinya/singbox_ruleset@main/rule/Android/Android.srs",
-        "http_client": "default",
         "update_interval": "48h0m0s"
       },
       {
         "type": "remote",
         "tag": "telegram",
         "url": "https://cdn.jsdelivr.net/gh/SagerNet/sing-geosite@rule-set/geosite-telegram.srs",
-        "http_client": "default",
         "update_interval": "48h0m0s"
       },
       {
         "type": "remote",
         "tag": "instagram",
         "url": "https://cdn.jsdelivr.net/gh/SagerNet/sing-geosite@rule-set/geosite-instagram.srs",
-        "http_client": "default",
         "update_interval": "48h0m0s"
       },
       {
         "type": "remote",
         "tag": "Google",
         "url": "https://cdn.jsdelivr.net/gh/senshinya/singbox_ruleset@main/rule/Google/Google.srs",
-        "http_client": "default",
         "update_interval": "48h0m0s"
       },
       {
         "type": "remote",
         "tag": "Apple",
         "url": "https://cdn.jsdelivr.net/gh/SagerNet/sing-geosite@rule-set/geosite-apple.srs",
-        "http_client": "default",
         "update_interval": "48h0m0s"
       },
       {
         "type": "remote",
         "tag": "GlobalMedia",
         "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/category-entertainment.srs",
-        "http_client": "default",
         "update_interval": "48h0m0s"
       }
     ],
     "final": "🚦 最终",
     "auto_detect_interface": true,
+    "default_http_client": "default",
     "default_domain_resolver": "alidns-quic"
   },
   "services": [
