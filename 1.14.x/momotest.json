@@ -454,7 +454,9 @@
           "app-measurement.com",
           "firebaselogging.googleapis.com",
           "firebaselogging-pa.googleapis.com",
-          "muse.ai"
+          "muse.ai",
+          "meta.com",
+          "metaaivm.com"
         ],
         "outbound": "🧠 AIGC"
       },
