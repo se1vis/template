@@ -467,7 +467,10 @@
           "google.com.hk",
           "app-measurement.com",
           "firebaselogging.googleapis.com",
-          "firebaselogging-pa.googleapis.com"
+          "firebaselogging-pa.googleapis.com",
+          "muse.ai",
+          "meta.com",
+          "metaaivm.com"
         ],
         "outbound": "🧠 AIGC"
       },
