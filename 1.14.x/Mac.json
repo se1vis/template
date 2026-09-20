@@ -144,7 +144,6 @@
         "cnip",
         "private"
       ],
-      "stack": "mixed",
       "endpoint_independent_nat": true
     }
   ],
